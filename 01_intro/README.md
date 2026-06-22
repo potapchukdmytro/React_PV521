@@ -1,17 +1,17 @@
 # Встановити пакети
-npm i
+## npm i
 
-# Встановити пакет <name>
-npm i <name>
+# Встановити пакет _name_
+## npm i _name_
 
-# Видалити пакет <name>
-npm uninstall <name>
+# Видалити пакет _name_
+## npm uninstall _name_
 
 # Запустити проект
-npm run dev
+## npm run dev
 
 # Збілдити проект
-npm run build
+## npm run build
 
 # Зупинити проект
-Ctrl + C в терміналі
+## Ctrl + C в терміналі
