@@ -182,3 +182,10 @@
     border-right-color: var(--border);
   }
 }
+
+.custom-btn {
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1em;
+  background-color: lightsalmon;
+}
