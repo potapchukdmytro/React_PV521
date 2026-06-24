@@ -1,0 +1,12 @@
+.author-image {
+    float: left;
+    margin: 0px 16px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.biography-text {
+    text-align: start;
+    margin: 0px 8px;
+}
