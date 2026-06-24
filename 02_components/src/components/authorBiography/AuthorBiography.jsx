@@ -1,16 +1,16 @@
 import "./AuthorBiography.css";
 
-const AuthorBiography = ({name, image, biography}) => {
+const AuthorBiography = ({author}) => {
     return (
         <div>
-            <h1>{name}</h1>
+            <h1>{author.name}</h1>
             <img
                 className="author-image"
-                src={image}
+                src={author.image}
                 alt="Michael_Lewis_2009"
             />
             <div className="biography-text">
-                {biography}
+                {author.biography}
             </div>
         </div>
     );
