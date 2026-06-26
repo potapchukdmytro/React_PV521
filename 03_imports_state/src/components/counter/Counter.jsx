@@ -14,11 +14,21 @@ function Counter() {
     // Якщо стан змінюється то викликається ререндер компоненту
     const [count, setCount] = useState(0);
 
+    // function increment() {
+    //     const newCount = count + 1;
+    //     setCount(newCount);
+    //     console.log(newCount);
+    // }
+
     function increment() {
-        const newCount = count + 1;
-        setCount(newCount);
-        console.log(newCount);
+        // set може приймати функцію куди перелає попереднє значення
+        setCount((prev) => prev + 1);
+        setCount((prev) => prev + 1);
     }
+
+    // Так робити не можна
+    // Якщо set викликано в компоненті то буде вічний цикл
+    // setCount(count + 1);
 
     function decrement() {
         const newCount = count - 1;

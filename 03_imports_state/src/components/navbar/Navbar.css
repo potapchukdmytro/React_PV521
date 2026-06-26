@@ -1,7 +1,15 @@
 .navbar {
     display: flex;
     height: 60px;
-    background-color: #303030;
     justify-content: space-around;
     align-items: center;
+}
+
+.navbar-dark {
+    background-color: #303030;
+}
+
+.navbar-light {
+    background-color: #acacac;
+    color: black
 }

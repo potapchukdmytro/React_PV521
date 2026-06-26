@@ -21,6 +21,8 @@ import "./App.css";
 import image from "./images/expimp.avif";
 
 function App() {
+    console.log("App render");
+
     // console.log(calculator(6, 12, "*"));
     // console.log(add(1,2));
 
