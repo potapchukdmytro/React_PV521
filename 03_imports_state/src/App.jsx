@@ -1,5 +1,6 @@
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
+import Counter from "./components/counter/Counter";
 
 // import для export default
 // можна дати будь яку назву після слова import
@@ -22,16 +23,16 @@ import image from "./images/expimp.avif";
 function App() {
     // console.log(calculator(6, 12, "*"));
     // console.log(add(1,2));
-    
+
     // console.log(calcFunctions.sub(100, 50));
     // console.log(image);
-    
 
     return (
         <>
             <Navbar />
             <div className="app-container">
                 {/* <img src={image}/> */}
+                <Counter />
             </div>
             <Footer />
         </>

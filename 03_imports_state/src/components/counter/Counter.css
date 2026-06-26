@@ -1,0 +1,13 @@
+.counter-btn {
+    font-size: 1.3em;
+    margin: 16px;
+    padding: 8px 16px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+}
+
+.counter-btn:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
