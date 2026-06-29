@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-dark {
+    background-color: #303030;
+}
+
+.navbar-light {
+    background-color: #acacac;
+    color: black
+}
