@@ -2,6 +2,7 @@ import Navbar from "./components/navbar/Navbar";
 import { Button, ButtonGradient, ButtonText, CircleButton } from "./components/buttons/Buttons";
 import "./App.css";
 import Game from "./components/game/Game";
+import { useState } from "react";
 
 function App() {
     return (
@@ -13,7 +14,7 @@ function App() {
               <ButtonGradient text="Gradient button"/>
               <ButtonText>Children button text</ButtonText> */}
 
-              <Game/>
+              <Game />
             </div>
         </>
     );
