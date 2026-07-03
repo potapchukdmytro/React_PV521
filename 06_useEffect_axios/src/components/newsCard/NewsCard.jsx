@@ -8,33 +8,37 @@ import Typography from "@mui/material/Typography";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShareIcon from "@mui/icons-material/Share";
 
-function NewsCard() {
+function NewsCard({ article }) {
     return (
-        <Card sx={{ maxWidth: 345 }}>
-            <CardHeader
-                title="Shrimp and Chorizo Paella"
-                subheader="September 14, 2016"
-            />
+        <Card
+            sx={{
+                maxWidth: 345,
+                backgroundColor: "#3b3b3b",
+                color: "white",
+                height: "100%",
+            }}
+        >
+            <Typography sx={{ fontWeight: "bold" }}>{article.title}</Typography>
+            <Typography color="warning" variant="caption">
+                {article.publishedAt}
+            </Typography>
             <CardMedia
                 component="img"
                 height="194"
-                image="/static/images/cards/paella.jpg"
-                alt="Paella dish"
+                image={article.urlToImage}
+                alt={article.title}
             />
             <CardContent>
-                <Typography variant="body2" sx={{ color: "text.secondary" }}>
-                    This impressive paella is a perfect party dish and a fun
-                    meal to cook together with your guests. Add 1 cup of frozen
-                    peas along with the mussels, if you like.
+                <Typography variant="body2" sx={{ color: "white" }}>
+                    {article.description}
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>
-                <IconButton aria-label="add to favorites">
-                    <FavoriteIcon />
-                </IconButton>
-                <IconButton aria-label="share">
-                    <ShareIcon />
-                </IconButton>
+                <a href={article.url} target="_blank">
+                    <IconButton aria-label="share" sx={{ color: "white" }}>
+                        <ShareIcon />
+                    </IconButton>
+                </a>
             </CardActions>
         </Card>
     );
