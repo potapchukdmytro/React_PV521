@@ -4,6 +4,7 @@ import Books from "./pages/books/Books";
 import News from "./pages/news/News";
 import LoginControlled from "./pages/loginControlled/LoginControlled";
 import LoginUncontrolled from "./pages/loginUncontrolled/LoginUncontrolled";
+import LoginWithFormik from "./pages/loginWithFormik/LoginWithFormik";
 
 function App() {
     return (
@@ -13,7 +14,8 @@ function App() {
                 <News />
             </ThemeProvider> */}
             {/* <LoginControlled /> */}
-            <LoginUncontrolled />
+            {/* <LoginUncontrolled /> */}
+            <LoginWithFormik/>
         </>
     );
 }
