@@ -3,6 +3,7 @@ import "./App.css";
 import Books from "./pages/books/Books";
 import News from "./pages/news/News";
 import LoginControlled from "./pages/loginControlled/LoginControlled";
+import LoginUncontrolled from "./pages/loginUncontrolled/LoginUncontrolled";
 
 function App() {
     return (
@@ -11,7 +12,8 @@ function App() {
             {/* <ThemeProvider theme={createTheme({ palette: { mode: "dark" } })}>
                 <News />
             </ThemeProvider> */}
-            <LoginControlled />
+            {/* <LoginControlled /> */}
+            <LoginUncontrolled />
         </>
     );
 }
