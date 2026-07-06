@@ -2,7 +2,7 @@ import { createTheme, ThemeProvider } from "@mui/material";
 import "./App.css";
 import Books from "./pages/books/Books";
 import News from "./pages/news/News";
-import Login from "./pages/login/Login";
+import LoginControlled from "./pages/loginControlled/LoginControlled";
 
 function App() {
     return (
@@ -11,7 +11,7 @@ function App() {
             {/* <ThemeProvider theme={createTheme({ palette: { mode: "dark" } })}>
                 <News />
             </ThemeProvider> */}
-            <Login />
+            <LoginControlled />
         </>
     );
 }
