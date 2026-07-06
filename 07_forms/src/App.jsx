@@ -5,6 +5,7 @@ import News from "./pages/news/News";
 import LoginControlled from "./pages/loginControlled/LoginControlled";
 import LoginUncontrolled from "./pages/loginUncontrolled/LoginUncontrolled";
 import LoginWithFormik from "./pages/loginWithFormik/LoginWithFormik";
+import FormWithFiles from "./pages/formWithFiles/FormWithFiles";
 
 function App() {
     return (
@@ -15,7 +16,8 @@ function App() {
             </ThemeProvider> */}
             {/* <LoginControlled /> */}
             {/* <LoginUncontrolled /> */}
-            <LoginWithFormik/>
+            {/* <LoginWithFormik/> */}
+            <FormWithFiles />
         </>
     );
 }
