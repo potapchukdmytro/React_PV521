@@ -8,19 +8,83 @@ const inputGroupStyle = {
 };
 
 function LoginControlled() {
-    // const [email, setEmail] = useState("");
-    // const [password, setPassword] = useState("");
-    // const [rememberMe, setRememberMe] = useState(false);
     const [data, setData] = useState({
         email: "",
         password: "",
         rememberMe: false,
     });
 
+    // state помилок для валідації
+    const [errors, setErrors] = useState({ isPasswordBlur: false });
+
     function submitHandler(event) {
         event.preventDefault();
 
+        let result =  validate("email", data.email);
+        if(result.email) {
+            return;
+        }
+
+        result = validate("password", data.password);
+        if(result.password) {
+            return;
+        }
+
         console.log(data);
+    }
+
+    function validate(property, value) {
+        if (property == "email") {
+            return validateEmail(value);
+        } else if (property == "password") {
+            return validatePassword(value);
+        }
+    }
+
+    function validateEmail(email) {
+        const emailRegex = /^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$/;
+
+        const invalidEmailError = "Невірний формат пошти";
+        const requiredEmailError = "Пошта є обов'язковою";
+
+        const result = { ...errors };
+        delete result.email;
+
+        // email
+        if (!email || email.length == 0) {
+            result.email = requiredEmailError;
+        } else if (!emailRegex.test(email)) {
+            result.email = invalidEmailError;
+        }
+
+        setErrors(result);
+        return result;
+    }
+
+    function validatePassword(password) {
+        const passwordRegex =
+            /^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^\w\d\s:])([^\s]){8,16}$/;
+
+        const invalidPasswordError =
+            "Пароль повинен містити цифру, символ, велику та малу літери";
+        const lengthPasswordError = "Пароль повинен бути від 8 до 16 символів";
+
+        const result = { ...errors };
+        delete result.password;
+
+        // password
+        if (!password || password.length < 8 || password.length > 16) {
+            result.password = lengthPasswordError;
+        } else if (!passwordRegex.test(password)) {
+            result.password = invalidPasswordError;
+        }
+
+        setErrors(result);
+        return result;
+    }
+
+    function passwordBlur() {        
+        setErrors({ ...errors, isPasswordBlur: true });
     }
 
     function onChangeHandler(event) {
@@ -32,6 +96,7 @@ function LoginControlled() {
         } else {
             const newData = { ...data, [name]: value };
             setData(newData);
+            validate(name, newData[name]);
         }
     }
 
@@ -66,6 +131,16 @@ function LoginControlled() {
                             value={data.email}
                             onChange={onChangeHandler}
                         />
+                        {errors.email && (
+                            <span
+                                style={{
+                                    color: "lightcoral",
+                                    fontSize: "13px",
+                                }}
+                            >
+                                {errors.email}
+                            </span>
+                        )}
                     </div>
 
                     <div style={inputGroupStyle}>
@@ -79,7 +154,18 @@ function LoginControlled() {
                             autoComplete="current-password"
                             value={data.password}
                             onChange={onChangeHandler}
+                            onBlur={passwordBlur}
                         />
+                        {errors.password && errors.isPasswordBlur && (
+                            <span
+                                style={{
+                                    color: "lightcoral",
+                                    fontSize: "13px",
+                                }}
+                            >
+                                {errors.password}
+                            </span>
+                        )}
                     </div>
 
                     <div style={{ margin: "16px 8px", textAlign: "start" }}>

@@ -14,8 +14,8 @@ function App() {
             {/* <ThemeProvider theme={createTheme({ palette: { mode: "dark" } })}>
                 <News />
             </ThemeProvider> */}
-            {/* <LoginControlled /> */}
-            <LoginUncontrolled />
+            <LoginControlled />
+            {/* <LoginUncontrolled /> */}
             {/* <LoginWithFormik/> */}
             {/* <FormWithFiles /> */}
         </>
