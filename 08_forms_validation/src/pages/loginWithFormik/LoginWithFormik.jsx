@@ -1,4 +1,5 @@
 import { useFormik } from "formik";
+import * as Yup from "yup";
 
 const inputGroupStyle = {
     display: "flex",
@@ -10,19 +11,34 @@ const inputGroupStyle = {
 function LoginWithFormik() {
     function submitHandler(values) {
         console.log(values);
-    }   
+    }
 
     // інпути повинні мати name
     // назви властивостей повинні бути такі самі як і name у інпутах
     const initValues = {
         email: "",
         password: "",
-        rememberMe: false
+        rememberMe: false,
     };
+
+    // схема валідації через yup
+    const passwordRegex =
+        /^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^\w\d\s:])([^\s]){8,16}$/;
+    const validationSchema = Yup.object({
+        email: Yup.string()
+            .required("Пошта є обов'язковою")
+            .email("Невірний формат пошти"),
+        password: Yup.string()
+            .required("Пароль є обов'язковим")
+            .min(8, "Мінімальна довжина 8 символів")
+            .max(16, "Максимальна довжина 16 символів")
+            .matches(passwordRegex, "Пароль повинен містити цифру, символ, велику та малу літери"),
+    });
 
     const formik = useFormik({
         initialValues: initValues,
-        onSubmit: submitHandler
+        onSubmit: submitHandler,
+        validationSchema: validationSchema,
     });
 
     return (
@@ -55,7 +71,18 @@ function LoginWithFormik() {
                             placeholder="user@mail.com"
                             value={formik.values.email}
                             onChange={formik.handleChange}
+                            onBlur={formik.handleBlur}
                         />
+                        {formik.errors.email && formik.touched.email && (
+                            <span
+                                style={{
+                                    color: "lightcoral",
+                                    fontSize: "13px",
+                                }}
+                            >
+                                {formik.errors.email}
+                            </span>
+                        )}
                     </div>
 
                     <div style={inputGroupStyle}>
@@ -69,7 +96,18 @@ function LoginWithFormik() {
                             autoComplete="current-password"
                             value={formik.values.password}
                             onChange={formik.handleChange}
+                            onBlur={formik.handleBlur}
                         />
+                        {formik.errors.password && formik.touched.password && (
+                            <span
+                                style={{
+                                    color: "lightcoral",
+                                    fontSize: "13px",
+                                }}
+                            >
+                                {formik.errors.password}
+                            </span>
+                        )}
                     </div>
 
                     <div style={{ margin: "16px 8px", textAlign: "start" }}>
