@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 const inputGroupStyle = {
     display: "flex",
@@ -9,8 +9,8 @@ const inputGroupStyle = {
 };
 
 function LoginUncontrolled() {
-    console.log("login render");
-    
+    const [errors, setErrors] = useState({});
+
     // useRef - константа яка посилається на значення або html елемент
     // зміна value useRef не викликає ререндер
     const emailRef = useRef(null);
@@ -20,16 +20,56 @@ function LoginUncontrolled() {
     async function submitHandler(event) {
         event.preventDefault();
 
+        const result = validate();
+
+        if (result.email || result.password) {
+            return;
+        }
+
         const data = {
             email: emailRef.current.value,
             password: passwordRef.current.value,
-            rememberMe: rememberMeRef.current.checked
+            rememberMe: rememberMeRef.current.checked,
+        };
+
+        const response = await axios.post(
+            "https://frontend53.somee.com/api/auth/login",
+            data,
+        );
+    }
+
+    // валідація на кнопку
+    function validate() {
+        const emailRegex = /^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$/;
+        const passwordRegex =
+            /^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[^\w\d\s:])([^\s]){8,16}$/;
+
+        const email = emailRef.current.value;
+        const password = passwordRef.current.value;
+
+        const invalidEmailError = "Невірний формат пошти";
+        const requiredEmailError = "Пошта є обов'язковою";
+        const invalidPasswordError =
+            "Пароль повинен містити цифру, символ, велику та малу літери";
+        const lengthPasswordError = "Пароль повинен бути від 8 до 16 символів";
+
+        const result = {};
+        // email
+        if (!email || email.length == 0) {
+            result.email = requiredEmailError;
+        } else if (!emailRegex.test(email)) {
+            result.email = invalidEmailError;
         }
 
-        console.log(data);
+        // password
+        if (!password || password.length < 8 || password.length > 16) {
+            result.password = lengthPasswordError;
+        } else if (!passwordRegex.test(password)) {
+            result.password = invalidPasswordError;
+        }
 
-        const response = await axios.post("https://frontend53.somee.com/api/auth/login", data);
-        console.log(response);
+        setErrors(result);
+        return result;
     }
 
     return (
@@ -62,6 +102,16 @@ function LoginUncontrolled() {
                             type="text"
                             placeholder="user@mail.com"
                         />
+                        {errors.email && (
+                            <span
+                                style={{
+                                    color: "lightcoral",
+                                    fontSize: "13px",
+                                }}
+                            >
+                                {errors.email}
+                            </span>
+                        )}
                     </div>
 
                     <div style={inputGroupStyle}>
@@ -75,6 +125,16 @@ function LoginUncontrolled() {
                             placeholder="password"
                             autoComplete="current-password"
                         />
+                        {errors.password && (
+                            <span
+                                style={{
+                                    color: "lightcoral",
+                                    fontSize: "13px",
+                                }}
+                            >
+                                {errors.password}
+                            </span>
+                        )}
                     </div>
 
                     <div style={{ margin: "16px 8px", textAlign: "start" }}>

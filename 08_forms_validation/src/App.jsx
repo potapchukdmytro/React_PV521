@@ -15,9 +15,9 @@ function App() {
                 <News />
             </ThemeProvider> */}
             {/* <LoginControlled /> */}
-            {/* <LoginUncontrolled /> */}
+            <LoginUncontrolled />
             {/* <LoginWithFormik/> */}
-            <FormWithFiles />
+            {/* <FormWithFiles /> */}
         </>
     );
 }
