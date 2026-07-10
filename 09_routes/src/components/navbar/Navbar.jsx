@@ -2,6 +2,13 @@ import NavLink from "../nav/NavLink";
 import { Link } from "react-router";
 
 function Navbar() {
+    const links = [
+        { text: "Головна", link: "/" },
+        { text: "Книги", link: "/books" },
+        { text: "Новини", link: "/news" },
+        { text: "Плейлист", link: "/tracks" }
+    ];
+
     return (
         <nav
             style={{
@@ -19,18 +26,11 @@ function Navbar() {
                     display: "flex",
                 }}
             >
-                <Link to="/">
-                    <NavLink>Головна</NavLink>
-                </Link>
-                <Link to="/books">
-                    <NavLink>Книги</NavLink>
-                </Link>
-                <Link to="/news">
-                    <NavLink>Новини</NavLink>
-                </Link>
-                <Link to="tracks">
-                    <NavLink>Плейлист</NavLink>
-                </Link>
+                {links.map((l) => (
+                    <Link key={l.text} to={l.link}>
+                        <NavLink>{l.text}</NavLink>
+                    </Link>
+                ))}
             </div>
             <div style={{ flexGrow: 1 }}>
                 <Link to="/login">
