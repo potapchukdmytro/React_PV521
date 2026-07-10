@@ -1,0 +1,10 @@
+.custom-navlink {
+    margin: 0px 12px;
+    font-size: 1.05em;
+    font-weight: 600;
+}
+
+.custom-navlink:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
