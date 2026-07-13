@@ -1,0 +1,1547 @@
+[
+    {
+        "id": 1,
+        "title": "Кобзар",
+        "image": "https://bookchef.ua/storage/products/18489/photo/main.jpeg",
+        "rating": 5,
+        "price": 350,
+        "author": {
+            "id": 1,
+            "name": "Тарас Шевченко",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Taras_Shevchenko_-_portrait_by_Ivan_Kramskoi.jpg",
+            "country": "Україна",
+            "biography": "Видатний український поет, прозаїк, художник та громадський діяч. Національний пророк України, який заклав основи сучасної української літератури.",
+            "birth_date": "1814-03-09"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Гайдамаки",
+        "image": "https://4read.org/uploads/posts/2021-07/1627754059_-shevchenko.jpg",
+        "rating": 4.8,
+        "price": 180,
+        "author": {
+            "id": 1,
+            "name": "Тарас Шевченко",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Taras_Shevchenko_-_portrait_by_Ivan_Kramskoi.jpg",
+            "country": "Україна",
+            "biography": "Видатний український поет, прозаїк, художник та громадський діяч. Національний пророк України, який заклав основи сучасної української літератури.",
+            "birth_date": "1814-03-09"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Катерина",
+        "image": "https://content2.rozetka.com.ua/goods/images/big/657450856.jpg",
+        "rating": 4.9,
+        "price": 120,
+        "author": {
+            "id": 1,
+            "name": "Тарас Шевченко",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Taras_Shevchenko_-_portrait_by_Ivan_Kramskoi.jpg",
+            "country": "Україна",
+            "biography": "Видатний український поет, прозаїк, художник та громадський діяч. Національний пророк України, який заклав основи сучасної української літератури.",
+            "birth_date": "1814-03-09"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Кавказ",
+        "image": "https://svitliteraturu.com/_ld/11/86104202.jpg",
+        "rating": 4.9,
+        "price": 110,
+        "author": {
+            "id": 1,
+            "name": "Тарас Шевченко",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Taras_Shevchenko_-_portrait_by_Ivan_Kramskoi.jpg",
+            "country": "Україна",
+            "biography": "Видатний український поет, прозаїк, художник та громадський діяч. Національний пророк України, який заклав основи сучасної української літератури.",
+            "birth_date": "1814-03-09"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Назар Стодоля",
+        "image": "https://libruk.com.ua/wp-content/uploads/nazar-stodolia.jpg",
+        "rating": 4.6,
+        "price": 160,
+        "author": {
+            "id": 1,
+            "name": "Тарас Шевченко",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Taras_Shevchenko_-_portrait_by_Ivan_Kramskoi.jpg",
+            "country": "Україна",
+            "biography": "Видатний український поет, прозаїк, художник та громадський діяч. Національний пророк України, який заклав основи сучасної української літератури.",
+            "birth_date": "1814-03-09"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Захар Беркут",
+        "image": "https://s2.vcdn.biz/static/f/11653267721/6c787f071e124a25b58e4366959cceb3.jpeg",
+        "rating": 4.9,
+        "price": 250,
+        "author": {
+            "id": 2,
+            "name": "Іван Франко",
+            "image": "https://nibu.kyiv.ua/media/uploads/2021/08/18/franko1.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, поет, публіцист, перекладач, учений та громадський діяч. Один із найплодовитіших авторів Європи.",
+            "birth_date": "1856-08-27"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Украдене щастя",
+        "image": "https://content2.rozetka.com.ua/goods/images/big/657495248.jpg",
+        "rating": 4.8,
+        "price": 190,
+        "author": {
+            "id": 2,
+            "name": "Іван Франко",
+            "image": "https://nibu.kyiv.ua/media/uploads/2021/08/18/franko1.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, поет, публіцист, перекладач, учений та громадський діяч. Один із найплодовитіших авторів Європи.",
+            "birth_date": "1856-08-27"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Мойсей",
+        "image": "https://s2.vcdn.biz/static/f/11654521391/e33c7ed8b2f84a27b0dc051b40f29058.jpeg",
+        "rating": 4.9,
+        "price": 150,
+        "author": {
+            "id": 2,
+            "name": "Іван Франко",
+            "image": "https://nibu.kyiv.ua/media/uploads/2021/08/18/franko1.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, поет, публіцист, перекладач, учений та громадський діяч. Один із найплодовитіших авторів Європи.",
+            "birth_date": "1856-08-27"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Зів'яле листя",
+        "image": "https://s2.vcdn.biz/static/f/11653744301/2f2b751a5947433abf9960b0c96ade84.jpeg",
+        "rating": 4.7,
+        "price": 170,
+        "author": {
+            "id": 2,
+            "name": "Іван Франко",
+            "image": "https://nibu.kyiv.ua/media/uploads/2021/08/18/franko1.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, поет, публіцист, перекладач, учений та громадський діяч. Один із найплодовитіших авторів Європи.",
+            "birth_date": "1856-08-27"
+        }
+    },
+    {
+        "id": 10,
+        "title": "Перехресні стежки",
+        "image": "https://s7.vcdn.biz/static/f/11652886841/56b8592af2de4425b73796e22c779470.jpeg",
+        "rating": 4.6,
+        "price": 240,
+        "author": {
+            "id": 2,
+            "name": "Іван Франко",
+            "image": "https://nibu.kyiv.ua/media/uploads/2021/08/18/franko1.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, поет, публіцист, перекладач, учений та громадський діяч. Один із найплодовитіших авторів Європи.",
+            "birth_date": "1856-08-27"
+        }
+    },
+    {
+        "id": 11,
+        "title": "Лісова пісня",
+        "image": "https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/c/o/cover_858_1.jpg",
+        "rating": 5,
+        "price": 280,
+        "author": {
+            "id": 3,
+            "name": "Леся Українка",
+            "image": "https://bukvy.org/wp-content/uploads/2026/02/Lesya_Ukrayinka.2.jpg",
+            "country": "Україна",
+            "biography": "Українська письменниця, перекладачка, культурна діячка. Співзасновниця літературного гуртка «Плеяда». Модерністка в українській літературі.",
+            "birth_date": "1871-02-25"
+        }
+    },
+    {
+        "id": 12,
+        "title": "Бояриня",
+        "image": "https://static.yakaboo.ua/media/catalog/product/c/o/cover_85_100.jpg",
+        "rating": 4.7,
+        "price": 160,
+        "author": {
+            "id": 3,
+            "name": "Леся Українка",
+            "image": "https://bukvy.org/wp-content/uploads/2026/02/Lesya_Ukrayinka.2.jpg",
+            "country": "Україна",
+            "biography": "Українська письменниця, перекладачка, культурна діячка. Співзасновниця літературного гуртка «Плеяда». Модерністка в українській літературі.",
+            "birth_date": "1871-02-25"
+        }
+    },
+    {
+        "id": 13,
+        "title": "Камінний господар",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/Kaminnyi_hospodar.jpg",
+        "rating": 4.6,
+        "price": 175,
+        "author": {
+            "id": 3,
+            "name": "Леся Українка",
+            "image": "https://bukvy.org/wp-content/uploads/2026/02/Lesya_Ukrayinka.2.jpg",
+            "country": "Україна",
+            "biography": "Українська письменниця, перекладачка, культурна діячка. Співзасновниця літературного гуртка «Плеяда». Модерністка в українській літературі.",
+            "birth_date": "1871-02-25"
+        }
+    },
+    {
+        "id": 14,
+        "title": "Кассандра",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Kassandra_Lesya.jpg",
+        "rating": 4.8,
+        "price": 190,
+        "author": {
+            "id": 3,
+            "name": "Леся Українка",
+            "image": "https://bukvy.org/wp-content/uploads/2026/02/Lesya_Ukrayinka.2.jpg",
+            "country": "Україна",
+            "biography": "Українська письменниця, перекладачка, культурна діячка. Співзасновниця літературного гуртка «Плеяда». Модерністка в українській літературі.",
+            "birth_date": "1871-02-25"
+        }
+    },
+    {
+        "id": 15,
+        "title": "Contra spem spero!",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Contra_spem_spero_manuscript.jpg",
+        "rating": 4.9,
+        "price": 140,
+        "author": {
+            "id": 3,
+            "name": "Леся Українка",
+            "image": "https://bukvy.org/wp-content/uploads/2026/02/Lesya_Ukrayinka.2.jpg",
+            "country": "Україна",
+            "biography": "Українська письменниця, перекладачка, культурна діячка. Співзасновниця літературного гуртка «Плеяда». Модерністка в українській літературі.",
+            "birth_date": "1871-02-25"
+        }
+    },
+    {
+        "id": 16,
+        "title": "Тіні забутих предків",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Tini_zabutykh_predkiv_book.jpg",
+        "rating": 4.9,
+        "price": 220,
+        "author": {
+            "id": 4,
+            "name": "Михайло Коцюбинський",
+            "image": "https://csamm.archives.gov.ua/wp-content/uploads/2019/10/1-6.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, громадський діяч, голова Просвіти в Чернігові. Майстер психологічної прози та імпресіонізму.",
+            "birth_date": "1864-09-17"
+        }
+    },
+    {
+        "id": 17,
+        "title": "Intermezzo",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Intermezzo_Kotsiubynsky.jpg",
+        "rating": 4.8,
+        "price": 130,
+        "author": {
+            "id": 4,
+            "name": "Михайло Коцюбинський",
+            "image": "https://csamm.archives.gov.ua/wp-content/uploads/2019/10/1-6.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, громадський діяч, голова Просвіти в Чернігові. Майстер психологічної прози та імпресіонізму.",
+            "birth_date": "1864-09-17"
+        }
+    },
+    {
+        "id": 18,
+        "title": "Fata Morgana",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Fata_Morgana_book.jpg",
+        "rating": 4.5,
+        "price": 210,
+        "author": {
+            "id": 4,
+            "name": "Михайло Коцюбинський",
+            "image": "https://csamm.archives.gov.ua/wp-content/uploads/2019/10/1-6.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, громадський діяч, голова Просвіти в Чернігові. Майстер психологічної прози та імпресіонізму.",
+            "birth_date": "1864-09-17"
+        }
+    },
+    {
+        "id": 19,
+        "title": "Дорогою ціною",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Dorohoyu_tsinoyu.jpg",
+        "rating": 4.7,
+        "price": 165,
+        "author": {
+            "id": 4,
+            "name": "Михайло Коцюбинський",
+            "image": "https://csamm.archives.gov.ua/wp-content/uploads/2019/10/1-6.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, громадський діяч, голова Просвіти в Чернігові. Майстер психологічної прози та імпресіонізму.",
+            "birth_date": "1864-09-17"
+        }
+    },
+    {
+        "id": 20,
+        "title": "Сміх",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Smikh_Kotsiubynsky.jpg",
+        "rating": 4.4,
+        "price": 110,
+        "author": {
+            "id": 4,
+            "name": "Михайло Коцюбинський",
+            "image": "https://csamm.archives.gov.ua/wp-content/uploads/2019/10/1-6.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, громадський діяч, голова Просвіти в Чернігові. Майстер психологічної прози та імпресіонізму.",
+            "birth_date": "1864-09-17"
+        }
+    },
+    {
+        "id": 21,
+        "title": "Вечори на хуторі біля Диканьки",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Vechera_na_hutore.jpg",
+        "rating": 4.9,
+        "price": 300,
+        "author": {
+            "id": 5,
+            "name": "Микола Гоголь",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/N.Gogol_by_F.Moller_%281840s%2C_GIM%29.jpg/250px-N.Gogol_by_F.Moller_%281840s%2C_GIM%29.jpg",
+            "country": "Україна",
+            "biography": "Видатний письменник, який народився на Полтавщині. Прославив українську культуру, козацькі традиції та демонологію у світовій літературі.",
+            "birth_date": "1809-04-01"
+        }
+    },
+    {
+        "id": 22,
+        "title": "Тарас Бульба",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Taras_Bulba_1842.jpg",
+        "rating": 4.8,
+        "price": 240,
+        "author": {
+            "id": 5,
+            "name": "Микола Гоголь",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/N.Gogol_by_F.Moller_%281840s%2C_GIM%29.jpg/250px-N.Gogol_by_F.Moller_%281840s%2C_GIM%29.jpg",
+            "country": "Україна",
+            "biography": "Видатний письменник, який народився на Полтавщині. Прославив українську культуру, козацькі традиції та демонологію у світовій літературі.",
+            "birth_date": "1809-04-01"
+        }
+    },
+    {
+        "id": 23,
+        "title": "Вій",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Viy_Gogol_illustration.jpg",
+        "rating": 4.9,
+        "price": 150,
+        "author": {
+            "id": 5,
+            "name": "Микола Гоголь",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/N.Gogol_by_F.Moller_%281840s%2C_GIM%29.jpg/250px-N.Gogol_by_F.Moller_%281840s%2C_GIM%29.jpg",
+            "country": "Україна",
+            "biography": "Видатний письменник, який народився на Полтавщині. Прославив українську культуру, козацькі традиції та демонологію у світовій літературі.",
+            "birth_date": "1809-04-01"
+        }
+    },
+    {
+        "id": 24,
+        "title": "Ревізор",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Revizor_Gogol.jpg",
+        "rating": 4.7,
+        "price": 180,
+        "author": {
+            "id": 5,
+            "name": "Микола Гоголь",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/N.Gogol_by_F.Moller_%281840s%2C_GIM%29.jpg/250px-N.Gogol_by_F.Moller_%281840s%2C_GIM%29.jpg",
+            "country": "Україна",
+            "biography": "Видатний письменник, який народився на Полтавщині. Прославив українську культуру, козацькі традиції та демонологію у світовій літературі.",
+            "birth_date": "1809-04-01"
+        }
+    },
+    {
+        "id": 25,
+        "title": "Мертві душі",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Mertvye_dushi_1842.jpg",
+        "rating": 4.6,
+        "price": 280,
+        "author": {
+            "id": 5,
+            "name": "Микола Гоголь",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/N.Gogol_by_F.Moller_%281840s%2C_GIM%29.jpg/250px-N.Gogol_by_F.Moller_%281840s%2C_GIM%29.jpg",
+            "country": "Україна",
+            "biography": "Видатний письменник, який народився на Полтавщині. Прославив українську культуру, козацькі традиції та демонологію у світовій літературі.",
+            "birth_date": "1809-04-01"
+        }
+    },
+    {
+        "id": 26,
+        "title": "Я (Романтика)",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ya_Romantyka_Khvylovy.jpg",
+        "rating": 4.9,
+        "price": 140,
+        "author": {
+            "id": 6,
+            "name": "Микола Хвильовий",
+            "image": "https://portalhistoryua.com/wp-content/uploads/2024/05/mykola-hvylovyj.jpg",
+            "country": "Україна",
+            "biography": "Український прозаїк, поет, публіцист, один із лідерів Розстріляного відродження. Засновник літературного об'єднання ВАПЛІТЄ.",
+            "birth_date": "1893-12-13"
+        }
+    },
+    {
+        "id": 27,
+        "title": "Санаторійна зона",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Sanatoriyna_zona.jpg",
+        "rating": 4.7,
+        "price": 190,
+        "author": {
+            "id": 6,
+            "name": "Микола Хвильовий",
+            "image": "https://portalhistoryua.com/wp-content/uploads/2024/05/mykola-hvylovyj.jpg",
+            "country": "Україна",
+            "biography": "Український прозаїк, поет, публіцист, один із лідерів Розстріляного відродження. Засновник літературного об'єднання ВАПЛІТЄ.",
+            "birth_date": "1893-12-13"
+        }
+    },
+    {
+        "id": 28,
+        "title": "Вальдшнепи",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Valdshnepy_Khvylovy.jpg",
+        "rating": 4.6,
+        "price": 220,
+        "author": {
+            "id": 6,
+            "name": "Микола Хвильовий",
+            "image": "https://portalhistoryua.com/wp-content/uploads/2024/05/mykola-hvylovyj.jpg",
+            "country": "Україна",
+            "biography": "Український прозаїк, поет, публіцист, один із лідерів Розстріляного відродження. Засновник літературного об'єднання ВАПЛІТЄ.",
+            "birth_date": "1893-12-13"
+        }
+    },
+    {
+        "id": 29,
+        "title": "Сині етюди",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Syni_etiudy_1923.jpg",
+        "rating": 4.7,
+        "price": 200,
+        "author": {
+            "id": 6,
+            "name": "Микола Хвильовий",
+            "image": "https://portalhistoryua.com/wp-content/uploads/2024/05/mykola-hvylovyj.jpg",
+            "country": "Україна",
+            "biography": "Український прозаїк, поет, публіцист, один із лідерів Розстріляного відродження. Засновник літературного об'єднання ВАПЛІТЄ.",
+            "birth_date": "1893-12-13"
+        }
+    },
+    {
+        "id": 30,
+        "title": "Кіт у чоботях",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/Kit_u_chobotiah.jpg",
+        "rating": 4.3,
+        "price": 110,
+        "author": {
+            "id": 6,
+            "name": "Микола Хвильовий",
+            "image": "https://portalhistoryua.com/wp-content/uploads/2024/05/mykola-hvylovyj.jpg",
+            "country": "Україна",
+            "biography": "Український прозаїк, поет, публіцист, один із лідерів Розстріляного відродження. Засновник літературного об'єднання ВАПЛІТЄ.",
+            "birth_date": "1893-12-13"
+        }
+    },
+    {
+        "id": 31,
+        "title": "Місто",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Misto_Pidmohylny_1928.jpg",
+        "rating": 4.9,
+        "price": 280,
+        "author": {
+            "id": 7,
+            "name": "Валер'ян Підмогильний",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-02-06/14/KSk1549462159TIU.jpeg",
+            "country": "Україна",
+            "biography": "Видатний український письменник, перекладач, один із найяскравіших представників інтелектуальної прози Розстріляного відродження.",
+            "birth_date": "1901-02-02"
+        }
+    },
+    {
+        "id": 32,
+        "title": "Невеличка драма",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Nevelychka_drama_1930.jpg",
+        "rating": 4.8,
+        "price": 240,
+        "author": {
+            "id": 7,
+            "name": "Валер'ян Підмогильний",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-02-06/14/KSk1549462159TIU.jpeg",
+            "country": "Україна",
+            "biography": "Видатний український письменник, перекладач, один із найяскравіших представників інтелектуальної прози Розстріляного відродження.",
+            "birth_date": "1901-02-02"
+        }
+    },
+    {
+        "id": 33,
+        "title": "Повість без назви",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Povist_bez_nazvy.jpg",
+        "rating": 4.6,
+        "price": 180,
+        "author": {
+            "id": 7,
+            "name": "Валер'ян Підмогильний",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-02-06/14/KSk1549462159TIU.jpeg",
+            "country": "Україна",
+            "biography": "Видатний український письменник, перекладач, один із найяскравіших представників інтелектуальної прози Розстріляного відродження.",
+            "birth_date": "1901-02-02"
+        }
+    },
+    {
+        "id": 34,
+        "title": "Остап Шаптала",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ostap_Shaptala.jpg",
+        "rating": 4.4,
+        "price": 160,
+        "author": {
+            "id": 7,
+            "name": "Валер'ян Підмогильний",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-02-06/14/KSk1549462159TIU.jpeg",
+            "country": "Україна",
+            "biography": "Видатний український письменник, перекладач, один із найяскравіших представників інтелектуальної прози Розстріляного відродження.",
+            "birth_date": "1901-02-02"
+        }
+    },
+    {
+        "id": 35,
+        "title": "Проблема хліба",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Problema_khliba.jpg",
+        "rating": 4.5,
+        "price": 170,
+        "author": {
+            "id": 7,
+            "name": "Валер'ян Підмогильний",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-02-06/14/KSk1549462159TIU.jpeg",
+            "country": "Україна",
+            "biography": "Видатний український письменник, перекладач, один із найяскравіших представників інтелектуальної прози Розстріляного відродження.",
+            "birth_date": "1901-02-02"
+        }
+    },
+    {
+        "id": 36,
+        "title": "Тигролови",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Tyhrolovy_1944.jpg",
+        "rating": 5,
+        "price": 290,
+        "author": {
+            "id": 8,
+            "name": "Іван Багряний",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-10-03/11/5zj1570091596xFa.jpeg",
+            "country": "Україна",
+            "biography": "Український поет, прозаїк, публіцист, політичний діяч. В'язень радянських таборів, який зумів емігрувати та відкрити правду про ГУЛАГ світові.",
+            "birth_date": "1906-10-02"
+        }
+    },
+    {
+        "id": 37,
+        "title": "Сад Гетсиманський",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sad_Hetsymanskyi.jpg",
+        "rating": 4.9,
+        "price": 320,
+        "author": {
+            "id": 8,
+            "name": "Іван Багряний",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-10-03/11/5zj1570091596xFa.jpeg",
+            "country": "Україна",
+            "biography": "Український поет, прозаїк, публіцист, політичний діяч. В'язень радянських таборів, який зумів емігрувати та відкрити правду про ГУЛАГ світові.",
+            "birth_date": "1906-10-02"
+        }
+    },
+    {
+        "id": 38,
+        "title": "Огненне коло",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Ohnenne_kolo.jpg",
+        "rating": 4.7,
+        "price": 220,
+        "author": {
+            "id": 8,
+            "name": "Іван Багряний",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-10-03/11/5zj1570091596xFa.jpeg",
+            "country": "Україна",
+            "biography": "Український поет, прозаїк, публіцист, політичний діяч. В'язень радянських таборів, який зумів емігрувати та відкрити правду про ГУЛАГ світові.",
+            "birth_date": "1906-10-02"
+        }
+    },
+    {
+        "id": 39,
+        "title": "Людина біжить над прірвою",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Liudyna_bizhyt_nad_prirvoyu.jpg",
+        "rating": 4.8,
+        "price": 260,
+        "author": {
+            "id": 8,
+            "name": "Іван Багряний",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-10-03/11/5zj1570091596xFa.jpeg",
+            "country": "Україна",
+            "biography": "Український поет, прозаїк, публіцист, політичний діяч. В'язень радянських таборів, який зумів емігрувати та відкрити правду про ГУЛАГ світові.",
+            "birth_date": "1906-10-02"
+        }
+    },
+    {
+        "id": 40,
+        "title": "Маруся Богуславка",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Marusia_Bohuslavka_book.jpg",
+        "rating": 4.6,
+        "price": 240,
+        "author": {
+            "id": 8,
+            "name": "Іван Багряний",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-10-03/11/5zj1570091596xFa.jpeg",
+            "country": "Україна",
+            "biography": "Український поет, прозаїк, публіцист, політичний діяч. В'язень радянських таборів, який зумів емігрувати та відкрити правду про ГУЛАГ світові.",
+            "birth_date": "1906-10-02"
+        }
+    },
+    {
+        "id": 41,
+        "title": "Палімпсести",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Palimpsesty_Stus.jpg",
+        "rating": 5,
+        "price": 300,
+        "author": {
+            "id": 9,
+            "name": "Василь Стус",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-09-04/11/r2R1567584190lqO.jpeg",
+            "country": "Україна",
+            "biography": "Український поет, перекладач, політв'язень та дисидент. Один із найактивніших діячів українського руху опору, Герой України посмертно.",
+            "birth_date": "1838-01-06"
+        }
+    },
+    {
+        "id": 42,
+        "title": "Дорога болю",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Doroha_boliu.jpg",
+        "rating": 4.9,
+        "price": 180,
+        "author": {
+            "id": 9,
+            "name": "Василь Стус",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-09-04/11/r2R1567584190lqO.jpeg",
+            "country": "Україна",
+            "biography": "Український поет, перекладач, політв'язень та дисидент. Один із найактивніших діячів українського руху опору, Герой України посмертно.",
+            "birth_date": "1838-01-06"
+        }
+    },
+    {
+        "id": 43,
+        "title": "Круговерть",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Kruhovert_Stus.jpg",
+        "rating": 4.7,
+        "price": 150,
+        "author": {
+            "id": 9,
+            "name": "Василь Стус",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-09-04/11/r2R1567584190lqO.jpeg",
+            "country": "Україна",
+            "biography": "Український поет, перекладач, політв'язень та дисидент. Один із найактивніших діячів українського руху опору, Герой України посмертно.",
+            "birth_date": "1838-01-06"
+        }
+    },
+    {
+        "id": 44,
+        "title": "Зимові дерева",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Zymovi_dereva.jpg",
+        "rating": 4.9,
+        "price": 210,
+        "author": {
+            "id": 9,
+            "name": "Василь Стус",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-09-04/11/r2R1567584190lqO.jpeg",
+            "country": "Україна",
+            "biography": "Український поет, перекладач, політв'язень та дисидент. Один із найактивніших діячів українського руху опору, Герой України посмертно.",
+            "birth_date": "1838-01-06"
+        }
+    },
+    {
+        "id": 45,
+        "title": "Свіча в свічаді",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Svicha_v_svichadi.jpg",
+        "rating": 4.8,
+        "price": 270,
+        "author": {
+            "id": 9,
+            "name": "Василь Стус",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2019-09-04/11/r2R1567584190lqO.jpeg",
+            "country": "Україна",
+            "biography": "Український поет, перекладач, політв'язень та дисидент. Один із найактивніших діячів українського руху опору, Герой України посмертно.",
+            "birth_date": "1838-01-06"
+        }
+    },
+    {
+        "id": 46,
+        "title": "Маруся Чурай",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Marusia_Churai_book.jpg",
+        "rating": 5,
+        "price": 320,
+        "author": {
+            "id": 10,
+            "name": "Ліна Костенко",
+            "image": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/2143/production/_111351580_319106.jpg.webp",
+            "country": "Україна",
+            "biography": "Видатна українська поетка, письменниця, шістдесятниця. Лауреатка Шевченківської премії, почесна професорка Києво-Могилянської академії.",
+            "birth_date": "1930-03-19"
+        }
+    },
+    {
+        "id": 47,
+        "title": "Записки українського самашедшого",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Zapysky_samashedshoho.jpg",
+        "rating": 4.7,
+        "price": 290,
+        "author": {
+            "id": 10,
+            "name": "Ліна Костенко",
+            "image": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/2143/production/_111351580_319106.jpg.webp",
+            "country": "Україна",
+            "biography": "Видатна українська поетка, письменниця, шістдесятниця. Лауреатка Шевченківської премії, почесна професорка Києво-Могилянської академії.",
+            "birth_date": "1930-03-19"
+        }
+    },
+    {
+        "id": 48,
+        "title": "Триста поезій",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/300_poezii_Kostenko.jpg",
+        "rating": 4.9,
+        "price": 350,
+        "author": {
+            "id": 10,
+            "name": "Ліна Костенко",
+            "image": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/2143/production/_111351580_319106.jpg.webp",
+            "country": "Україна",
+            "biography": "Видатна українська поетка, письменниця, шістдесятниця. Лауреатка Шевченківської премії, почесна професорка Києво-Могилянської академії.",
+            "birth_date": "1930-03-19"
+        }
+    },
+    {
+        "id": 49,
+        "title": "Над берегами вічної ріки",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Nad_berehamy_vichnoi_riky.jpg",
+        "rating": 4.8,
+        "price": 190,
+        "author": {
+            "id": 10,
+            "name": "Ліна Костенко",
+            "image": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/2143/production/_111351580_319106.jpg.webp",
+            "country": "Україна",
+            "biography": "Видатна українська поетка, письменниця, шістдесятниця. Лауреатка Шевченківської премії, почесна професорка Києво-Могилянської академії.",
+            "birth_date": "1930-03-19"
+        }
+    },
+    {
+        "id": 50,
+        "title": "Річка Геракліта",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Richka_Heraklita.jpg",
+        "rating": 4.9,
+        "price": 400,
+        "author": {
+            "id": 10,
+            "name": "Ліна Костенко",
+            "image": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/2143/production/_111351580_319106.jpg.webp",
+            "country": "Україна",
+            "biography": "Видатна українська поетка, письменниця, шістдесятниця. Лауреатка Шевченківської премії, почесна професорка Києво-Могилянської академії.",
+            "birth_date": "1930-03-19"
+        }
+    },
+    {
+        "id": 51,
+        "title": "Байки Харківські",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Bayky_Kharkivski.jpg",
+        "rating": 4.9,
+        "price": 230,
+        "author": {
+            "id": 11,
+            "name": "Григорій Сковорода",
+            "image": "https://static.yakaboo.ua/media/entity/author/1/3/1310734339.jpg",
+            "country": "Україна",
+            "biography": "Видатний український філософ-містик, богослов, поет, педагог. Автор концепції «сродної праці» та мандрівний мислитель.",
+            "birth_date": "1722-12-03"
+        }
+    },
+    {
+        "id": 52,
+        "title": "Сад божественних пісень",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Sad_bozhestvennykh_pisen.jpg",
+        "rating": 4.8,
+        "price": 250,
+        "author": {
+            "id": 11,
+            "name": "Григорій Сковорода",
+            "image": "https://static.yakaboo.ua/media/entity/author/1/3/1310734339.jpg",
+            "country": "Україна",
+            "biography": "Видатний український філософ-містик, богослов, поет, педагог. Автор концепції «сродної праці» та мандрівний мислитель.",
+            "birth_date": "1722-12-03"
+        }
+    },
+    {
+        "id": 53,
+        "title": "Вдячний Еродій",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Vdiachnyi_Erodiy.jpg",
+        "rating": 4.7,
+        "price": 180,
+        "author": {
+            "id": 11,
+            "name": "Григорій Сковорода",
+            "image": "https://static.yakaboo.ua/media/entity/author/1/3/1310734339.jpg",
+            "country": "Україна",
+            "biography": "Видатний український філософ-містик, богослов, поет, педагог. Автор концепції «сродної праці» та мандрівний мислитель.",
+            "birth_date": "1722-12-03"
+        }
+    },
+    {
+        "id": 54,
+        "title": "Наркіс. Розмова про те: пізнай себе",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Narkis_Skovoroda.jpg",
+        "rating": 4.8,
+        "price": 195,
+        "author": {
+            "id": 11,
+            "name": "Григорій Сковорода",
+            "image": "https://static.yakaboo.ua/media/entity/author/1/3/1310734339.jpg",
+            "country": "Україна",
+            "biography": "Видатний український філософ-містик, богослов, поет, педагог. Автор концепції «сродної праці» та мандрівний мислитель.",
+            "birth_date": "1722-12-03"
+        }
+    },
+    {
+        "id": 55,
+        "title": "Убогий Жайворонок",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ubohyi_Zhaivoronok.jpg",
+        "rating": 4.6,
+        "price": 170,
+        "author": {
+            "id": 11,
+            "name": "Григорій Сковорода",
+            "image": "https://static.yakaboo.ua/media/entity/author/1/3/1310734339.jpg",
+            "country": "Україна",
+            "biography": "Видатний український філософ-містик, богослов, поет, педагог. Автор концепції «сродної праці» та мандрівний мислитель.",
+            "birth_date": "1722-12-03"
+        }
+    },
+    {
+        "id": 56,
+        "title": "Енеїда",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Eneida_1798.jpg",
+        "rating": 5,
+        "price": 330,
+        "author": {
+            "id": 12,
+            "name": "Іван Котляревський",
+            "image": "https://mikst.org.ua/wp-content/uploads/2025/02/image2-14.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, поет, драматург, засновник нової української літератури. Автор безсмертної поеми «Енеїда».",
+            "birth_date": "1769-09-09"
+        }
+    },
+    {
+        "id": 57,
+        "title": "Наталка Полтавка",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Natalka_Poltavka_illustration.jpg",
+        "rating": 4.9,
+        "price": 150,
+        "author": {
+            "id": 12,
+            "name": "Іван Котляревський",
+            "image": "https://mikst.org.ua/wp-content/uploads/2025/02/image2-14.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, поет, драматург, засновник нової української літератури. Автор безсмертної поеми «Енеїда».",
+            "birth_date": "1769-09-09"
+        }
+    },
+    {
+        "id": 58,
+        "title": "Москаль-чарівник",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Moskal_charivnyk.jpg",
+        "rating": 4.6,
+        "price": 130,
+        "author": {
+            "id": 12,
+            "name": "Іван Котляревський",
+            "image": "https://mikst.org.ua/wp-content/uploads/2025/02/image2-14.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, поет, драматург, засновник нової української літератури. Автор безсмертної поеми «Енеїда».",
+            "birth_date": "1769-09-09"
+        }
+    },
+    {
+        "id": 59,
+        "title": "Пісня на новий 1805 рік пану князю Олексію Борисовичу Куракіну",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Kotlyarevsky_manuscript.jpg",
+        "rating": 4.2,
+        "price": 90,
+        "author": {
+            "id": 12,
+            "name": "Іван Котляревський",
+            "image": "https://mikst.org.ua/wp-content/uploads/2025/02/image2-14.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, поет, драматург, засновник нової української літератури. Автор безсмертної поеми «Енеїда».",
+            "birth_date": "1769-09-09"
+        }
+    },
+    {
+        "id": 60,
+        "title": "Ода Сапфо",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Sapfo_Kotlyarevsky.jpg",
+        "rating": 4.1,
+        "price": 85,
+        "author": {
+            "id": 12,
+            "name": "Іван Котляревський",
+            "image": "https://mikst.org.ua/wp-content/uploads/2025/02/image2-14.jpg",
+            "country": "Україна",
+            "biography": "Український письменник, поет, драматург, засновник нової української літератури. Автор безсмертної поеми «Енеїда».",
+            "birth_date": "1769-09-09"
+        }
+    },
+    {
+        "id": 61,
+        "title": "Зачарована Десна",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Zacharovana_Desna.jpg",
+        "rating": 4.9,
+        "price": 190,
+        "author": {
+            "id": 13,
+            "name": "Олександр Довженко",
+            "image": "https://nikolsky.com.ua/wp-content/uploads/2020/08/dovjenko.jpg",
+            "country": "Україна",
+            "biography": "Український радянський письменник, кінорежисер, кінодраматург, художник. Класик світового кінематографа.",
+            "birth_date": "1894-09-10"
+        }
+    },
+    {
+        "id": 62,
+        "title": "Україна в огні",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ukraina_v_ohni.jpg",
+        "rating": 4.8,
+        "price": 220,
+        "author": {
+            "id": 13,
+            "name": "Олександр Довженко",
+            "image": "https://nikolsky.com.ua/wp-content/uploads/2020/08/dovjenko.jpg",
+            "country": "Україна",
+            "biography": "Український радянський письменник, кінорежисер, кінодраматург, художник. Класик світового кінематографа.",
+            "birth_date": "1894-09-10"
+        }
+    },
+    {
+        "id": 63,
+        "title": "Земля",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Zemlia_Dovzhenko.jpg",
+        "rating": 4.8,
+        "price": 200,
+        "author": {
+            "id": 13,
+            "name": "Олександр Довженко",
+            "image": "https://nikolsky.com.ua/wp-content/uploads/2020/08/dovjenko.jpg",
+            "country": "Україна",
+            "biography": "Український радянський письменник, кінорежисер, кінодраматург, художник. Класик світового кінематографа.",
+            "birth_date": "1894-09-10"
+        }
+    },
+    {
+        "id": 64,
+        "title": "Поема про море",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Poema_pro_more.jpg",
+        "rating": 4.4,
+        "price": 210,
+        "author": {
+            "id": 13,
+            "name": "Олександр Довженко",
+            "image": "https://nikolsky.com.ua/wp-content/uploads/2020/08/dovjenko.jpg",
+            "country": "Україна",
+            "biography": "Український радянський письменник, кінорежисер, кінодраматург, художник. Класик світового кінематографа.",
+            "birth_date": "1894-09-10"
+        }
+    },
+    {
+        "id": 65,
+        "title": "Щоденник",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Schodennyk_Dovzhenko.jpg",
+        "rating": 4.9,
+        "price": 310,
+        "author": {
+            "id": 13,
+            "name": "Олександр Довженко",
+            "image": "https://nikolsky.com.ua/wp-content/uploads/2020/08/dovjenko.jpg",
+            "country": "Україна",
+            "biography": "Український радянський письменник, кінорежисер, кінодраматург, художник. Класик світового кінематографа.",
+            "birth_date": "1894-09-10"
+        }
+    },
+    {
+        "id": 66,
+        "title": "Земля",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Zemlia_Kobylianska.jpg",
+        "rating": 4.9,
+        "price": 260,
+        "author": {
+            "id": 14,
+            "name": "Ольга Кобилянська",
+            "image": "https://static.yakaboo.ua/media/entity/author/1/3/1313784766.jpg",
+            "country": "Україна",
+            "biography": "Українська модерністська письменниця, рання представниця українського феміністичного руху, майстриня психологічної прози.",
+            "birth_date": "1863-11-27"
+        }
+    },
+    {
+        "id": 67,
+        "title": "Царівна",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Tsarivna_Kobylianska.jpg",
+        "rating": 4.8,
+        "price": 240,
+        "author": {
+            "id": 14,
+            "name": "Ольга Кобилянська",
+            "image": "https://static.yakaboo.ua/media/entity/author/1/3/1313784766.jpg",
+            "country": "Україна",
+            "biography": "Українська модерністська письменниця, рання представниця українського феміністичного руху, майстриня психологічної прози.",
+            "birth_date": "1863-11-27"
+        }
+    },
+    {
+        "id": 68,
+        "title": "Valse mélancolique",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Valse_melancolique.jpg",
+        "rating": 4.8,
+        "price": 150,
+        "author": {
+            "id": 14,
+            "name": "Ольга Кобилянська",
+            "image": "https://static.yakaboo.ua/media/entity/author/1/3/1313784766.jpg",
+            "country": "Україна",
+            "biography": "Українська модерністська письменниця, рання представниця українського феміністичного руху, майстриня психологічної прози.",
+            "birth_date": "1863-11-27"
+        }
+    },
+    {
+        "id": 69,
+        "title": "Людина",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Liudyna_Kobylianska.jpg",
+        "rating": 4.6,
+        "price": 140,
+        "author": {
+            "id": 14,
+            "name": "Ольга Кобилянська",
+            "image": "https://static.yakaboo.ua/media/entity/author/1/3/1313784766.jpg",
+            "country": "Україна",
+            "biography": "Українська модерністська письменниця, рання представниця українського феміністичного руху, майстриня психологічної прози.",
+            "birth_date": "1863-11-27"
+        }
+    },
+    {
+        "id": 70,
+        "title": "В неділю рано зілля копала",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/V_nediliu_rano.jpg",
+        "rating": 4.7,
+        "price": 230,
+        "author": {
+            "id": 14,
+            "name": "Ольга Кобилянська",
+            "image": "https://static.yakaboo.ua/media/entity/author/1/3/1313784766.jpg",
+            "country": "Україна",
+            "biography": "Українська модерністська письменниця, рання представниця українського феміністичного руху, майстриня психологічної прози.",
+            "birth_date": "1863-11-27"
+        }
+    },
+    {
+        "id": 71,
+        "title": "Чорна рада",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Chorna_rada_1857.jpg",
+        "rating": 4.9,
+        "price": 270,
+        "author": {
+            "id": 15,
+            "name": "Пантелеймон Куліш",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMp0gmCT7nbmd28sqJEj0czbEkOnsPbKP3SagCmI7dHNq4ApMDRnHlrF4&s=10",
+            "country": "Україна",
+            "biography": "Український письменник, фольклорист, етнограф, мовознавець, перекладач, автор першої української фонетичної абетки «кулішівки».",
+            "birth_date": "1819-08-07"
+        }
+    },
+    {
+        "id": 72,
+        "title": "Досвітки",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Dosvitky_Kulish.jpg",
+        "rating": 4.3,
+        "price": 160,
+        "author": {
+            "id": 15,
+            "name": "Пантелеймон Куліш",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMp0gmCT7nbmd28sqJEj0czbEkOnsPbKP3SagCmI7dHNq4ApMDRnHlrF4&s=10",
+            "country": "Україна",
+            "biography": "Український письменник, фольклорист, етнограф, мовознавець, перекладач, автор першої української фонетичної абетки «кулішівки».",
+            "birth_date": "1819-08-07"
+        }
+    },
+    {
+        "id": 73,
+        "title": "Орися",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Orysia_Kulish.jpg",
+        "rating": 4.5,
+        "price": 120,
+        "author": {
+            "id": 15,
+            "name": "Пантелеймон Куліш",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMp0gmCT7nbmd28sqJEj0czbEkOnsPbKP3SagCmI7dHNq4ApMDRnHlrF4&s=10",
+            "country": "Україна",
+            "biography": "Український письменник, фольклорист, етнограф, мовознавець, перекладач, автор першої української фонетичної абетки «кулішівки».",
+            "birth_date": "1819-08-07"
+        }
+    },
+    {
+        "id": 74,
+        "title": "Хутірна філософія і віддалена від світу поезія",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Khutirna_filosofiya.jpg",
+        "rating": 4.4,
+        "price": 210,
+        "author": {
+            "id": 15,
+            "name": "Пантелеймон Куліш",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMp0gmCT7nbmd28sqJEj0czbEkOnsPbKP3SagCmI7dHNq4ApMDRnHlrF4&s=10",
+            "country": "Україна",
+            "biography": "Український письменник, фольклорист, етнограф, мовознавець, перекладач, автор першої української фонетичної абетки «кулішівки».",
+            "birth_date": "1819-08-07"
+        }
+    },
+    {
+        "id": 75,
+        "title": "Маруся Богуславка",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Marusia_Bohuslavka_Kulish.jpg",
+        "rating": 4.4,
+        "price": 150,
+        "author": {
+            "id": 15,
+            "name": "Пантелеймон Куліш",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMp0gmCT7nbmd28sqJEj0czbEkOnsPbKP3SagCmI7dHNq4ApMDRnHlrF4&s=10",
+            "country": "Україна",
+            "biography": "Український письменник, фольклорист, етнограф, мовознавець, перекладач, автор першої української фонетичної абетки «кулішівки».",
+            "birth_date": "1819-08-07"
+        }
+    },
+    {
+        "id": 76,
+        "title": "Сонячні кларнети",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Soniachni_klarnety.jpg",
+        "rating": 5,
+        "price": 250,
+        "author": {
+            "id": 16,
+            "name": "Павло Тичина",
+            "image": "https://upload.wikimedia.org/wikipedia/uk/c/c2/%D0%A2%D0%B8%D1%87%D0%B8%D0%BD%D0%B0_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE.jpg",
+            "country": "Україна",
+            "biography": "Український поет, новатор, засновник стилю «кларнетизм». Один із найвидатніших ліриків XX століття, який згодом зазнав тиску радянського режиму.",
+            "birth_date": "1891-01-23"
+        }
+    },
+    {
+        "id": 77,
+        "title": "Плуг",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pluh_Tychyna.jpg",
+        "rating": 4.5,
+        "price": 160,
+        "author": {
+            "id": 16,
+            "name": "Павло Тичина",
+            "image": "https://upload.wikimedia.org/wikipedia/uk/c/c2/%D0%A2%D0%B8%D1%87%D0%B8%D0%BD%D0%B0_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE.jpg",
+            "country": "Україна",
+            "biography": "Український поет, новатор, засновник стилю «кларнетизм». Один із найвидатніших ліриків XX століття, який згодом зазнав тиску радянського режиму.",
+            "birth_date": "1891-01-23"
+        }
+    },
+    {
+        "id": 78,
+        "title": "Замість сонетів і октав",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Zamist_sonetiv.jpg",
+        "rating": 4.8,
+        "price": 140,
+        "author": {
+            "id": 16,
+            "name": "Павло Тичина",
+            "image": "https://upload.wikimedia.org/wikipedia/uk/c/c2/%D0%A2%D0%B8%D1%87%D0%B8%D0%BD%D0%B0_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE.jpg",
+            "country": "Україна",
+            "biography": "Український поет, новатор, засновник стилю «кларнетизм». Один із найвидатніших ліриків XX століття, який згодом зазнав тиску радянського режиму.",
+            "birth_date": "1891-01-23"
+        }
+    },
+    {
+        "id": 79,
+        "title": "Вітер з України",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Viter_z_Ukrainy.jpg",
+        "rating": 4.3,
+        "price": 170,
+        "author": {
+            "id": 16,
+            "name": "Павло Тичина",
+            "image": "https://upload.wikimedia.org/wikipedia/uk/c/c2/%D0%A2%D0%B8%D1%87%D0%B8%D0%BD%D0%B0_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE.jpg",
+            "country": "Україна",
+            "biography": "Український поет, новатор, засновник стилю «кларнетизм». Один із найвидатніших ліриків XX століття, який згодом зазнав тиску радянського режиму.",
+            "birth_date": "1891-01-23"
+        }
+    },
+    {
+        "id": 80,
+        "title": "Чернігів",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Chernihiv_Tychyna.jpg",
+        "rating": 4.1,
+        "price": 150,
+        "author": {
+            "id": 16,
+            "name": "Павло Тичина",
+            "image": "https://upload.wikimedia.org/wikipedia/uk/c/c2/%D0%A2%D0%B8%D1%87%D0%B8%D0%BD%D0%B0_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE.jpg",
+            "country": "Україна",
+            "biography": "Український поет, новатор, засновник стилю «кларнетизм». Один із найвидатніших ліриків XX століття, який згодом зазнав тиску радянського режиму.",
+            "birth_date": "1891-01-23"
+        }
+    },
+    {
+        "id": 81,
+        "title": "Три зозулі з поклоном",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Try_zozuli.jpg",
+        "rating": 5,
+        "price": 130,
+        "author": {
+            "id": 17,
+            "name": "Григір Тютюнник",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2021-12-05/07/qsM16386815657jt.jpeg",
+            "country": "Україна",
+            "biography": "Видатний український письменник-новеліст, представник покоління шістдесятників. Майстер лаконічної, глибокої та правдивої психологічної прози.",
+            "birth_date": "1931-12-05"
+        }
+    },
+    {
+        "id": 82,
+        "title": "Климко",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Klymko_Tiutiunnyk.jpg",
+        "rating": 4.9,
+        "price": 180,
+        "author": {
+            "id": 17,
+            "name": "Григір Тютюнник",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2021-12-05/07/qsM16386815657jt.jpeg",
+            "country": "Україна",
+            "biography": "Видатний український письменник-новеліст, представник покоління шістдесятників. Майстер лаконічної, глибокої та правдивої психологічної прози.",
+            "birth_date": "1931-12-05"
+        }
+    },
+    {
+        "id": 83,
+        "title": "Вогник далеко в степу",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Vohnyk_v_stepu.jpg",
+        "rating": 4.8,
+        "price": 170,
+        "author": {
+            "id": 17,
+            "name": "Григір Тютюнник",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2021-12-05/07/qsM16386815657jt.jpeg",
+            "country": "Україна",
+            "biography": "Видатний український письменник-новеліст, представник покоління шістдесятників. Майстер лаконічної, глибокої та правдивої психологічної прози.",
+            "birth_date": "1931-12-05"
+        }
+    },
+    {
+        "id": 84,
+        "title": "Зав'язь",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Zaviazh_Tiutiunnyk.jpg",
+        "rating": 4.7,
+        "price": 200,
+        "author": {
+            "id": 17,
+            "name": "Григір Тютюнник",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2021-12-05/07/qsM16386815657jt.jpeg",
+            "country": "Україна",
+            "biography": "Видатний український письменник-новеліст, представник покоління шістдесятників. Майстер лаконічної, глибокої та правдивої психологічної прози.",
+            "birth_date": "1931-12-05"
+        }
+    },
+    {
+        "id": 85,
+        "title": "Облога",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Obloha_Tiutiunnyk.jpg",
+        "rating": 4.8,
+        "price": 160,
+        "author": {
+            "id": 17,
+            "name": "Григір Тютюнник",
+            "image": "https://uinp.gov.ua/storage/app/public/uploads/2021-12-05/07/qsM16386815657jt.jpeg",
+            "country": "Україна",
+            "biography": "Видатний український письменник-новеліст, представник покоління шістдесятників. Майстер лаконічної, глибокої та правдивої психологічної прози.",
+            "birth_date": "1931-12-05"
+        }
+    },
+    {
+        "id": 86,
+        "title": "Камена",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Kamena_Zerov.jpg",
+        "rating": 4.9,
+        "price": 240,
+        "author": {
+            "id": 18,
+            "name": "Микола Зеров",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Mykola_Zerov._1920-s.jpg",
+            "country": "Україна",
+            "biography": "Український поет, перекладач, літературознавець, лідер групи «неокласиків». Трагічно розстріляний у Сандармоху.",
+            "birth_date": "1890-04-26"
+        }
+    },
+    {
+        "id": 87,
+        "title": "Антологія римської поезії",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Antolohiya_rymskoi.jpg",
+        "rating": 4.9,
+        "price": 350,
+        "author": {
+            "id": 18,
+            "name": "Микола Зеров",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Mykola_Zerov._1920-s.jpg",
+            "country": "Україна",
+            "biography": "Український поет, перекладач, літературознавець, лідер групи «неокласиків». Трагічно розстріляний у Сандармоху.",
+            "birth_date": "1890-04-26"
+        }
+    },
+    {
+        "id": 88,
+        "title": "Нове українське письменство",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Nove_pysmenstvo.jpg",
+        "rating": 4.7,
+        "price": 300,
+        "author": {
+            "id": 18,
+            "name": "Микола Зеров",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Mykola_Zerov._1920-s.jpg",
+            "country": "Україна",
+            "biography": "Український поет, перекладач, літературознавець, лідер групи «неокласиків». Трагічно розстріляний у Сандармоху.",
+            "birth_date": "1890-04-26"
+        }
+    },
+    {
+        "id": 89,
+        "title": "До джерел",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Do_dzherel_Zerov.jpg",
+        "rating": 4.8,
+        "price": 260,
+        "author": {
+            "id": 18,
+            "name": "Микола Зеров",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Mykola_Zerov._1920-s.jpg",
+            "country": "Україна",
+            "biography": "Український поет, перекладач, літературознавець, лідер групи «неокласиків». Трагічно розстріляний у Сандармоху.",
+            "birth_date": "1890-04-26"
+        }
+    },
+    {
+        "id": 90,
+        "title": "Sonnetarium",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sonnetarium_Zerov.jpg",
+        "rating": 4.8,
+        "price": 220,
+        "author": {
+            "id": 18,
+            "name": "Микола Зеров",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Mykola_Zerov._1920-s.jpg",
+            "country": "Україна",
+            "biography": "Український поет, перекладач, літературознавець, лідер групи «неокласиків». Трагічно розстріляний у Сандармоху.",
+            "birth_date": "1890-04-26"
+        }
+    },
+    {
+        "id": 91,
+        "title": "Народні оповідання",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Narodni_opovidannia.jpg",
+        "rating": 4.9,
+        "price": 210,
+        "author": {
+            "id": 19,
+            "name": "Марко Вовчок",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Marko_Vovchok.jpg",
+            "country": "Україна",
+            "biography": "Українська письменниця, перекладачка, яка збагатила українську літературу новими жанрами та виступила проти кріпацтва.",
+            "birth_date": "1833-12-22"
+        }
+    },
+    {
+        "id": 92,
+        "title": "Маруся",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Marusia_Vovchok.jpg",
+        "rating": 4.8,
+        "price": 160,
+        "author": {
+            "id": 19,
+            "name": "Марко Вовчок",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Marko_Vovchok.jpg",
+            "country": "Україна",
+            "biography": "Українська письменниця, перекладачка, яка збагатила українську літературу новими жанрами та виступила проти кріпацтва.",
+            "birth_date": "1833-12-22"
+        }
+    },
+    {
+        "id": 93,
+        "title": "Інститутка",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Instytutka_Vovchok.jpg",
+        "rating": 4.8,
+        "price": 140,
+        "author": {
+            "id": 19,
+            "name": "Марко Вовчок",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Marko_Vovchok.jpg",
+            "country": "Україна",
+            "biography": "Українська письменниця, перекладачка, яка збагатила українську літературу новими жанрами та виступила проти кріпацтва.",
+            "birth_date": "1833-12-22"
+        }
+    },
+    {
+        "id": 94,
+        "title": "Кармелюк",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Karmeliuk_Vovchok.jpg",
+        "rating": 4.6,
+        "price": 150,
+        "author": {
+            "id": 19,
+            "name": "Марко Вовчок",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Marko_Vovchok.jpg",
+            "country": "Україна",
+            "biography": "Українська письменниця, перекладачка, яка збагатила українську літературу новими жанрами та виступила проти кріпацтва.",
+            "birth_date": "1833-12-22"
+        }
+    },
+    {
+        "id": 95,
+        "title": "Жива душа",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Zhyva_dusha.jpg",
+        "rating": 4.3,
+        "price": 180,
+        "author": {
+            "id": 19,
+            "name": "Марко Вовчок",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Marko_Vovchok.jpg",
+            "country": "Україна",
+            "biography": "Українська письменниця, перекладачка, яка збагатила українську літературу новими жанрами та виступила проти кріпацтва.",
+            "birth_date": "1833-12-22"
+        }
+    },
+    {
+        "id": 96,
+        "title": "Мисливські усмішки",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Myslyvski_usmishky.jpg",
+        "rating": 5,
+        "price": 250,
+        "author": {
+            "id": 20,
+            "name": "Остап Вишня",
+            "image": "https://knu.ua/tpl/img/photo-osobystosti/foto-vyshnja.jpg",
+            "country": "Україна",
+            "biography": "Видатний український письменник, новеліст, гуморист і сатирик. Начальник і творець унікального жанру «усмішка».",
+            "birth_date": "1889-11-13"
+        }
+    },
+    {
+        "id": 97,
+        "title": "Зенітка",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Zenitka_Vyshnia.jpg",
+        "rating": 4.8,
+        "price": 110,
+        "author": {
+            "id": 20,
+            "name": "Остап Вишня",
+            "image": "https://knu.ua/tpl/img/photo-osobystosti/foto-vyshnja.jpg",
+            "country": "Україна",
+            "biography": "Видатний український письменник, новеліст, гуморист і сатирик. Начальник і творець унікального жанру «усмішка».",
+            "birth_date": "1889-11-13"
+        }
+    },
+    {
+        "id": 98,
+        "title": "Вишневі усмішки кримські",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Usmishky_krymski.jpg",
+        "rating": 4.6,
+        "price": 160,
+        "author": {
+            "id": 20,
+            "name": "Остап Вишня",
+            "image": "https://knu.ua/tpl/img/photo-osobystosti/foto-vyshnja.jpg",
+            "country": "Україна",
+            "biography": "Видатний український письменник, новеліст, гуморист і сатирик. Начальник і творець унікального жанру «усмішка».",
+            "birth_date": "1889-11-13"
+        }
+    },
+    {
+        "id": 99,
+        "title": "Чухраїнці",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Chukhraintsi.jpg",
+        "rating": 4.7,
+        "price": 120,
+        "author": {
+            "id": 20,
+            "name": "Остап Вишня",
+            "image": "https://knu.ua/tpl/img/photo-osobystosti/foto-vyshnja.jpg",
+            "country": "Україна",
+            "biography": "Видатний український письменник, новеліст, гуморист і сатирик. Начальник і творець унікального жанру «усмішка».",
+            "birth_date": "1889-11-13"
+        }
+    },
+    {
+        "id": 100,
+        "title": "Моя автобіографія",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Avtobiohrafiya_Vyshnia.jpg",
+        "rating": 4.9,
+        "price": 140,
+        "author": {
+            "id": 20,
+            "name": "Остап Вишня",
+            "image": "https://knu.ua/tpl/img/photo-osobystosti/foto-vyshnja.jpg",
+            "country": "Україна",
+            "biography": "Видатний український письменник, новеліст, гуморист і сатирик. Начальник і творець унікального жанру «усмішка».",
+            "birth_date": "1889-11-13"
+        }
+    },
+    {
+        "id": 109,
+        "title": "Давня казка",
+        "image": "https://upload.wikimedia.org/wikipedia/uk/3/3f/%D0%9E%D0%B1%D0%BA%D0%BB%D0%B0%D0%B4%D0%B8%D0%BD%D0%BA%D0%B0_%D0%BA%D0%B0%D0%BD%D0%B8%D0%B3%D0%B8_%D0%94%D0%B0%D0%B2%D0%BD%D1%8F_%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0.jpeg",
+        "rating": 4.5,
+        "price": 350,
+        "author": {
+            "id": 3,
+            "name": "Леся Українка",
+            "image": "https://bukvy.org/wp-content/uploads/2026/02/Lesya_Ukrayinka.2.jpg",
+            "country": "Україна",
+            "biography": "Українська письменниця, перекладачка, культурна діячка. Співзасновниця літературного гуртка «Плеяда». Модерністка в українській літературі.",
+            "birth_date": "1871-02-25"
+        }
+    },
+    {
+        "id": 110,
+        "title": "Берестечко",
+        "image": "https://laboratory.ua/files/products/8enqxlpew44movig8qrx2zwpvesl0ovsplk71fzq_cr-1.1800x1200.jpg.webp",
+        "rating": 5,
+        "price": 290,
+        "author": {
+            "id": 10,
+            "name": "Ліна Костенко",
+            "image": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/2143/production/_111351580_319106.jpg.webp",
+            "country": "Україна",
+            "biography": "Видатна українська поетка, письменниця, шістдесятниця. Лауреатка Шевченківської премії, почесна професорка Києво-Могилянської академії.",
+            "birth_date": "1930-03-19"
+        }
+    },
+    {
+        "id": 115,
+        "title": "За ситуаціями",
+        "image": "https://static.yakaboo.ua/media/catalog/product/c/c/cc699d9232ba985d307266a7a6b30ebc.jpg",
+        "rating": 4,
+        "price": 399,
+        "author": {
+            "id": 14,
+            "name": "Ольга Кобилянська",
+            "image": "https://static.yakaboo.ua/media/entity/author/1/3/1313784766.jpg",
+            "country": "Україна",
+            "biography": "Українська модерністська письменниця, рання представниця українського феміністичного руху, майстриня психологічної прози.",
+            "birth_date": "1863-11-27"
+        }
+    }
+]
