@@ -1,6 +1,7 @@
 import { jwtDecode } from "jwt-decode";
 import { createContext, useState, useContext } from "react";
 import { removeCookie } from "../services/cookie";
+import axios from "axios";
 
 const AuthContext = createContext();
 
@@ -29,8 +30,26 @@ export function AuthProvider({ children }) {
         }
     }
 
+    async function isValidToken(token) {
+        try {
+            const response = await axios.post("https://frontend53.somee.com/api/auth/validate", token, {
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            });
+            if(response.status == 200) {
+                return true;
+            } else {
+                return false;
+            }
+        } catch (error) {
+            console.log(error.response);
+            return false;
+        }
+    }
+
     return (
-        <AuthContext.Provider value={{ user, logout, login, isAdmin }}>
+        <AuthContext.Provider value={{ user, logout, login, isAdmin, isValidToken }}>
             {children}
         </AuthContext.Provider>
     )
