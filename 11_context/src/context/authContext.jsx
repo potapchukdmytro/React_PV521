@@ -12,6 +12,10 @@ export function AuthProvider({ children }) {
         setUser(null);
     }
 
+    function isAdmin() {
+        return user && user.role == "admin";
+    }
+
     function login(token) {
         try {
             const payload = jwtDecode(token);
@@ -26,7 +30,7 @@ export function AuthProvider({ children }) {
     }
 
     return (
-        <AuthContext.Provider value={{ user, logout, login }}>
+        <AuthContext.Provider value={{ user, logout, login, isAdmin }}>
             {children}
         </AuthContext.Provider>
     )

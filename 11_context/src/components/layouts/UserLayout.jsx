@@ -2,7 +2,7 @@ import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar";
 import { Outlet } from "react-router";
 
-function UserLayout({user, setUser}) {
+function UserLayout() {
     return (
         <>
             <Navbar />

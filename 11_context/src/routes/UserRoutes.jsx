@@ -10,8 +10,11 @@ import AdminLayout from "../components/layouts/AdminLayout";
 import CreateBook from "../adminPages/books/CreateBook";
 import EditBook from "../adminPages/books/EditBook";
 import BooksTable from "../adminPages/books/BooksTable";
+import { useAuth } from "../context/authContext";
 
-function UserRoutes({ user, setUser }) {
+function UserRoutes() {
+    const {isAdmin} = useAuth();
+
     return (
         <Routes>
             <Route
@@ -24,7 +27,7 @@ function UserRoutes({ user, setUser }) {
                 <Route path="login" element={<Login />} />
                 <Route path="tracks" element={<FormWithFiles />} />
                 // admin
-                {user && user.role == "admin" && (
+                {isAdmin() && (
                     <Route path="dashboard" element={<AdminLayout />}>
                         <Route index element={<HomePage />} />
                         <Route path="books">

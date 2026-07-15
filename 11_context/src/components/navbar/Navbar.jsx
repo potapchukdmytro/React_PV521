@@ -4,7 +4,7 @@ import { Link } from "react-router";
 import { useAuth } from "../../context/authContext";
 
 function Navbar() {
-    const { logout, user } = useAuth();
+    const { logout, user, isAdmin } = useAuth();
 
     const links = [
         { text: "Головна", link: "/" },
@@ -37,8 +37,7 @@ function Navbar() {
                         <NavLink>{l.text}</NavLink>
                     </Link>
                 ))}
-                {user &&
-                    user.role == "admin" &&
+                {isAdmin() &&
                     adminLinks.map((l) => (
                         <Link key={l.text} to={l.link}>
                             <NavLink>{l.text}</NavLink>
