@@ -32,13 +32,13 @@ export function AuthProvider({ children }) {
 
     function googleLogin(token) {
         try {
-            const decoded = jwtDecode(token);
+            const payload = jwtDecode(token);
             const userData = {
-                email: decoded.email,
-                firstName: decoded.given_name,
-                lastName: decoded.family_name,
-                userName: decoded.email,
-                image: decoded.picture,
+                email: payload.email,
+                firstName: payload.given_name,
+                lastName: payload.family_name,
+                userName: payload.email,
+                image: payload.picture,
                 role: "user"
             };
 

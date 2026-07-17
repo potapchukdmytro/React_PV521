@@ -7,15 +7,24 @@ import { jwtDecode } from "jwt-decode";
 import { useAuth } from "./context/authContext";
 
 function App() {
-    const { login, isValidToken } = useAuth();
+    const { isValidToken, login, googleLogin } = useAuth();
 
     useEffect(() => {
         const loginUser = async () => {
             const token = getCookie("uat");
             if (token) {
-                if (await isValidToken(token)) {
-                    login(token);
-                } else {
+                try {
+                    const payload = jwtDecode(token);
+                    if (payload.iss == "https://accounts.google.com") {
+                        googleLogin(token);
+                    } else {
+                        if (await isValidToken(token)) {
+                            login(token);
+                        } else {
+                            removeCookie("uat");
+                        }
+                    }
+                } catch (error) {
                     removeCookie("uat");
                 }
             }

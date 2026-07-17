@@ -71,10 +71,14 @@ function Login() {
     // Google auth
     function googleSuccessHandler(creds) {
         const token = creds.credential;
-        const res = googleLogin(token);
-        if (res) {
-            navigate("/", { replace: true });
-        }
+        try {
+            const decoded = jwtDecode(token);
+            setCookie("uat", token, decoded.exp);
+            const res = googleLogin(token);
+            if (res) {
+                navigate("/", { replace: true });
+            }
+        } catch (error) {}
     }
 
     function googleErrorHandler() {
@@ -175,8 +179,14 @@ function Login() {
                                 }}
                             />
                         </div>
-                        <div style={{marginTop: "16px"}}>
-                            <GoogleLogin onSuccess={googleSuccessHandler} onError={googleErrorHandler} theme="dark" />
+                        <div style={{ marginTop: "16px" }}>
+                            <GoogleLogin
+                                onSuccess={googleSuccessHandler}
+                                onError={googleErrorHandler}
+                                theme="dark"
+                                context="signup"
+                                useOneTap
+                            />
                         </div>
                     </form>
                 </div>
