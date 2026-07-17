@@ -7,6 +7,7 @@ import Paper from "@mui/material/Paper";
 import InputBase from "@mui/material/InputBase";
 import IconButton from "@mui/material/IconButton";
 import SearchIcon from "@mui/icons-material/Search";
+import { env } from "../../env";
 
 function News() {
     const [articles, setArticles] = useState(null);
@@ -14,7 +15,7 @@ function News() {
     // axios - пакет для React щоб відправляти запити
     // Написаний на базі fetch і є його крутішим варіантом
     async function fetchNews(q = "It") {
-        const apiKey = "eef038525fa7401d8dfe7cf1a9006b10";
+        const apiKey = env.newsKey;
         const lang = "uk";
 
         const url = `https://newsapi.org/v2/everything?q=${q}&apiKey=${apiKey}&language=${lang}`;

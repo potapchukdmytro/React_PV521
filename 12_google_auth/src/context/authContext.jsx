@@ -30,6 +30,27 @@ export function AuthProvider({ children }) {
         }
     }
 
+    function googleLogin(token) {
+        try {
+            const decoded = jwtDecode(token);
+            const userData = {
+                email: decoded.email,
+                firstName: decoded.given_name,
+                lastName: decoded.family_name,
+                userName: decoded.email,
+                image: decoded.picture,
+                role: "user"
+            };
+
+            setUser(userData);
+            return true;
+
+        } catch (error) {
+            console.log(error);
+            return false;
+        }
+    }
+
     async function isValidToken(token) {
         try {
             const response = await axios.post("https://frontend53.somee.com/api/auth/validate", token, {
@@ -49,7 +70,7 @@ export function AuthProvider({ children }) {
     }
 
     return (
-        <AuthContext.Provider value={{ user, logout, login, isAdmin, isValidToken }}>
+        <AuthContext.Provider value={{ user, logout, login, isAdmin, isValidToken, googleLogin }}>
             {children}
         </AuthContext.Provider>
     )
