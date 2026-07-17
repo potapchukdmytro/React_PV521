@@ -7,6 +7,7 @@ import { jwtDecode } from "jwt-decode";
 import { useAuth } from "../../context/authContext";
 import { env } from "../../env";
 import { GoogleOAuthProvider, GoogleLogin } from "@react-oauth/google";
+import { Helmet } from "react-helmet-async";
 
 const inputGroupStyle = {
     display: "flex",
@@ -87,6 +88,9 @@ function Login() {
 
     return (
         <>
+            <Helmet>
+                <title>Вхід</title>
+            </Helmet>
             <GoogleOAuthProvider clientId={env.googleId}>
                 <div
                     style={{

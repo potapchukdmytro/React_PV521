@@ -8,6 +8,7 @@ import InputBase from "@mui/material/InputBase";
 import IconButton from "@mui/material/IconButton";
 import SearchIcon from "@mui/icons-material/Search";
 import { env } from "../../env";
+import { Helmet } from "react-helmet-async";
 
 function News() {
     const [articles, setArticles] = useState(null);
@@ -43,64 +44,81 @@ function News() {
 
     if (!articles) {
         return (
-            <div
-                style={{
-                    height: "100vh",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                }}
-            >
-                <CircularProgress color="secondary" aria-label="Loading…" />
-            </div>
+            <>
+                <Helmet>
+                    <title>Новини</title>
+                </Helmet>
+                <div
+                    style={{
+                        height: "100vh",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                    }}
+                >
+                    <CircularProgress color="secondary" aria-label="Loading…" />
+                </div>
+            </>
         );
     }
 
     if (articles.length == 0) {
-        return <h2>Новини не знайдено</h2>;
+        return (
+            <>
+                <Helmet>
+                    <title>Новини</title>
+                </Helmet>
+                <h2>Новини не знайдено</h2>;
+            </>
+        );
     }
 
     return (
-        <div>
-            <h1>Новини</h1>
+        <>
+            <Helmet>
+                <title>Новини</title>
+            </Helmet>
+            <div>
+                <h1>Новини</h1>
 
-            <div style={{ display: "flex", justifyContent: "center" }}>
-                <Paper
-                    component="form"
-                    sx={{
-                        p: "2px 4px",
-                        display: "flex",
-                        alignItems: "center",
-                        width: 400,
-                    }}
-                >
-                    <InputBase
-                        sx={{ ml: 1, flex: 1 }}
-                        placeholder="Search News"
-                        inputProps={{ "aria-label": "search news" }}
-                        id="searchInput"
-                    />
-                    <IconButton
-                        type="button"
-                        sx={{ p: "10px" }}
-                        aria-label="search"
-                        onClick={searchHandler}
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <Paper
+                        component="form"
+                        sx={{
+                            p: "2px 4px",
+                            display: "flex",
+                            alignItems: "center",
+                            width: 400,
+                        }}
                     >
-                        <SearchIcon />
-                    </IconButton>
-                </Paper>
-            </div>
+                        <InputBase
+                            sx={{ ml: 1, flex: 1 }}
+                            placeholder="Search News"
+                            inputProps={{ "aria-label": "search news" }}
+                            id="searchInput"
+                        />
+                        <IconButton
+                            type="button"
+                            sx={{ p: "10px" }}
+                            aria-label="search"
+                            onClick={searchHandler}
+                        >
+                            <SearchIcon />
+                        </IconButton>
+                    </Paper>
+                </div>
 
-            <div style={{ flexGrow: 1, padding: "8px" }}>
-                <Grid container spacing={2} style={{ padding: "16px" }}>
-                    {articles.map((article, index) => (
-                        <Grid key={index}>
-                            <NewsCard article={article} />
-                        </Grid>
-                    ))}
-                </Grid>
+                <div style={{ flexGrow: 1, padding: "8px" }}>
+                    <Grid container spacing={2} style={{ padding: "16px" }}>
+                        {articles.map((article, index) => (
+                            <Grid key={index}>
+                                <NewsCard article={article} />
+                            </Grid>
+                        ))}
+                    </Grid>
+                </div>
             </div>
-        </div>
+        </>
     );
 }
 
