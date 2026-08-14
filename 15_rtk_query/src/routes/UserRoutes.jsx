@@ -41,7 +41,7 @@ function UserRoutes() {
                         <Route path="books">
                             <Route index element={<BooksTable />} />
                             <Route path="create" element={<CreateBook />} />
-                            <Route path="edit" element={<EditBook />} />
+                            <Route path="edit/:id" element={<EditBook />} />
                         </Route>
                         <Route path="tracks">
                             <Route index element={<TracksList />} />

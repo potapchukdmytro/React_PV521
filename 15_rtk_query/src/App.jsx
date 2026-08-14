@@ -5,6 +5,7 @@ import "./App.css";
 import { getCookie, removeCookie } from "./services/cookie";
 import { jwtDecode } from "jwt-decode";
 import { useAuth } from "./context/authContext";
+import { ToastContainer, Flip } from "react-toastify";
 
 function App() {
     const { isValidToken, login, googleLogin } = useAuth();
@@ -36,6 +37,20 @@ function App() {
         <>
             <ThemeProvider theme={createTheme({ palette: { mode: "dark" } })}>
                 <UserRoutes />
+
+                <ToastContainer
+                    position="top-right"
+                    autoClose={5000}
+                    hideProgressBar={false}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                    pauseOnFocusLoss
+                    draggable
+                    pauseOnHover
+                    theme="dark"
+                    transition={Flip}
+                />
             </ThemeProvider>
         </>
     );

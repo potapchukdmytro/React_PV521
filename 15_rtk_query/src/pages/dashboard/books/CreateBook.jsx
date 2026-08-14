@@ -1,4 +1,8 @@
 import { useFormik } from "formik";
+import { useGetAuthorsQuery } from "../../../store/services/authorApi";
+import { useCreateBookMutation } from "../../../store/services/bookApi";
+import { useNavigate } from "react-router";
+import { toast } from "react-toastify";
 
 const inputGroupStyle = {
     display: "flex",
@@ -8,9 +12,23 @@ const inputGroupStyle = {
 };
 
 function CreateBook() {
+    const { data, isSuccess } = useGetAuthorsQuery();
+    const [createBook] = useCreateBookMutation();
+    const navigate = useNavigate();
 
-    function submitHandle(values) {
-
+    async function submitHandle(values) {
+        try {
+            const res = await createBook(values).unwrap();
+            
+            if(res.success) {
+                toast.success("Книгу додано");
+                navigate("/dashboard/books")
+            } else {
+                toast.error(res.message);
+            }
+        } catch (error) {
+            toast.error("Не вдалося додати книгу");
+        }
     }
 
     const initValues = {
@@ -21,12 +39,12 @@ function CreateBook() {
         price: 0,
         numberOfPages: 0,
         publishDate: 1900,
-        authorId: 0
-    }
+        authorId: 0,
+    };
 
     const formik = useFormik({
         initialValues: initValues,
-        onSubmit: submitHandle
+        onSubmit: submitHandle,
     });
 
     return (
@@ -150,10 +168,15 @@ function CreateBook() {
                             onChange={formik.handleChange}
                         >
                             <option value={0}>Невідомий</option>
+                            {isSuccess && data.payload.items.map((author) => (
+                                <option key={author.id} value={author.id}>
+                                    {author.name}
+                                </option>
+                            ))}
                         </select>
                     </div>
 
-                    <div style={{marginTop: "16px"}}>
+                    <div style={{ marginTop: "16px" }}>
                         <input
                             type="submit"
                             value="Додати"
@@ -171,7 +194,7 @@ function CreateBook() {
                 </form>
             </div>
         </>
-    )
+    );
 }
 
 export default CreateBook;
